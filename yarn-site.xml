@@ -15,7 +15,7 @@
 <configuration>
 <property>
 <name>yarn.resourcemanager.hostname</name>
-<value>node1</value>
+<value>VM1</value>
 </property>
 <property>
 <name>yarn.nodemanager.local-dirs</name>
@@ -31,11 +31,11 @@
 </property>
 <property>
 <name>yarn.log.server.url</name>
-<value>http://node1:19888/jobhistory/logs</value>
+<value>http://VM1:19888/jobhistory/logs</value>
 </property>
 <property>
 <name>yarn.web-proxy.address</name>
-<value>node1:8089</value>
+<value>VM1:8089</value>
 </property>
 <property>
 <name>yarn.log-aggregation-enable</name>

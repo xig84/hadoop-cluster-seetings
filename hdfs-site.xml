@@ -27,7 +27,7 @@
   </property>
   <property>
     <name>dfs.namenode.hosts</name>
-    <value>node,node2,node3</value>
+    <value>VM2,VM3</value>
   </property>
   <property>
     <name>dfs.blocksize</name>
@@ -41,18 +41,5 @@
     <name>dfs.datanode.data.dir</name>
     <value>/data/dn</value>
   </property>
-  <property>
-    <name>nfs.superuser</name>
-    <value>hadoop</value>
-  </property>
-  <property>
-    <name>nfs.dump.dir</name>
-    <value>/tmp/.hdfs-nfs</value>
-  </property>
-  <property>
-    <name>nfs.exports.allowed.hosts</name>
-    <value>192.168.88.1 rw</value>
-  </property>
-
 
 </configuration>

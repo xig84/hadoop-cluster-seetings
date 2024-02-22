@@ -44,7 +44,7 @@
 # Java property: hadoop.root.logger
 #export HADOOP_JHS_LOGGER=INFO,RFA
 
-export JAVA_HOME=/export/server/jdk
+export JAVA_HOME=java路径
 export HADOOP_JOB_HISTORYSERVER_HEAPSIZE=1000
 export HADOOP_MAPRED_ROOT_LOGGER=info,RFA
 

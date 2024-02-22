@@ -429,8 +429,8 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 # server jvm.
 # export HADOOP_REGISTRYDNS_SECURE_EXTRA_OPTS="-jvm server"
 
-export JAVA_HOME=/export/server/jdk
-export HADOOP_HOME=/export/server/hadoop
+export JAVA_HOME=java路径
+export HADOOP_HOME=hadoop路径
 export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
 export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 

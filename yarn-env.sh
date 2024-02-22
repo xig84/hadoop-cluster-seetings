@@ -175,8 +175,8 @@
 # export YARN_SERVICE_EXAMPLES_DIR = $HADOOP_YARN_HOME/share/hadoop/yarn/yarn-service-examples
 # export YARN_CONTAINER_RUNTIME_DOCKER_RUN_OVERRIDE_DISABLE=true
 
-export JAVA_HOME=/export/server/jdk
-export HADOOP_HOME=/export/server/hadoop
+export JAVA_HOME=java路径
+export HADOOP_HOME=hadoop路径
 export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
 export HADOOP_LOG_DIR=$HADOOP_HOME/logs
 
